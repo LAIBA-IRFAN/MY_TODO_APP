@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    background-color:darkcyan;
+}
+
+.my_heading h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.first_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+
+#input_box{
+    padding: 5px;
+    margin: 3px;
+    color: black !important;
+    font-size: 15px;
+    background-color: rgb(243, 178, 12);
+}
+#input_box::placeholder{
+    color: black;
+}
+
+.addItem{
+    border: 1px solid black;
+    background-color: rgb(243, 178, 12);
+    padding: 7px;
+    margin: 3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.deleteAll{
+    border: 1px solid black;
+    background-color:rgb(243, 178, 12);
+    padding: 7px;
+    margin: 3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.second_div{
+    display: flex;
+    justify-content: center;
+}
+
+#todo_list{
+    list-style-type:square;
+}
+
+.list_item{
+    margin-right: 10px;
+    color: black;
+    font-size: 15px;
+}
+.edit_btn{
+    border: 1px solid black;
+    background-color: rgb(243, 178, 12);
+    padding: 7px;
+    margin: 3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.del_btn{
+    border: 1px solid black;
+    background-color:rgb(243, 178, 12);
+    padding: 7px;
+    margin: 3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
